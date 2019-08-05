@@ -13,7 +13,26 @@ const App=()=>{
     const part3='State of a component'
     const exercises3=14
 
-    return ()
+    return (
+
+<div>
+<h1>
+    {course}
+</h1>
+<p>
+    {part1} {exercises1}
+</p>
+<p>{part2} {exercisese2}</p>
+
+<p>{part3} {exercises3}</p>
+
+<p>Number of exercises {exercises1+exercisese2+exercises3}</p>
+
+
+</div>
+
+
+    )
     
         }
 ReactDOM.render(<App />, document.getElementById('root'));
